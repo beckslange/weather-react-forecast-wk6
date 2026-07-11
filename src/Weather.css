@@ -1,0 +1,45 @@
+.Weather {
+  max-width: 650px;
+  border: solid 1px #5a5c5e;
+  padding: 16px;
+  margin: 30px auto;
+  border-radius: 4px;
+  color: rgb(135, 135, 135);
+}
+
+h1 {
+  font-size: 48px;
+}
+
+.Weather .date {
+  font-size: 20px;
+}
+
+.Weather .weather-icon {
+  display: inline-block;
+  height: 70px;
+  width: 70px;
+}
+
+.current-temp {
+  color: black;
+}
+.temperature {
+  font-size: 90px;
+}
+
+.unit {
+  position: relative;
+  top: -40px;
+  font-size: 24px;
+}
+
+.Weather .conditions {
+  font-size: 18px;
+}
+
+footer {
+  font-size: 14px;
+  color: rgb(135, 135, 135);
+  text-align: center;
+}
