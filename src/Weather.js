@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Weather.css";
-import axios from "axios";
 
 export default function Weather() {
   return (
