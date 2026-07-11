@@ -7,7 +7,7 @@ export default function App() {
     <div className="App">
       <Weather />
       <footer>
-        This project was coded by
+        This project was coded by{" "}
         <a
           href="https://www.linkedin.com/in/rebecca-lange-804b8b111/"
           target="_blank"
