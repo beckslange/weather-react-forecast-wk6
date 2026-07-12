@@ -35,8 +35,6 @@ export default function useWeatherInfo(defaultCity) {
   }
 
   function refreshWeather(response) {
-    console.log(response.data.condition);
-
     setWeatherData({
       city: response.data.city,
       time: formatDate(response.data.time),
