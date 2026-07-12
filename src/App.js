@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 export default function App() {
   return (
     <div className="App">
-      <div className="container">
+      <div className="container-fluid px-2">
         <Weather defaultCity="New York" />
         <footer>
           This project was coded by{" "}
