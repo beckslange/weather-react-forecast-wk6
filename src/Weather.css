@@ -26,8 +26,8 @@ h1 {
 
 .Weather .weather-icon {
   display: inline-block;
-  height: 70px;
-  width: 70px;
+  height: 110px;
+  width: 90px;
 }
 
 .current-temp {

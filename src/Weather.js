@@ -76,7 +76,7 @@ export default function Weather(props) {
           </ul>
         </div>
       </div>
-      <WeatherForecast />
+      <WeatherForecast iconURL={weatherData.iconURL} />
     </div>
   );
 }
