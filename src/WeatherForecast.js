@@ -12,7 +12,7 @@ export default function WeatherForecast(props) {
           <div className="forecast-temp">
             <span className="temp-max me-1">19°F</span>{" "}
             <span className="divider">|</span>
-            <span className="temp-min ms-1">10°F</span>{" "}
+            <span className="temp-min ms-1 opacity-75">10°F</span>{" "}
           </div>
         </div>
       </div>
