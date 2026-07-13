@@ -52,7 +52,12 @@ h1 {
 }
 
 footer {
-  font-size: 14px;
+  font-size: 13px;
   color: rgb(135, 135, 135);
-  text-align: center;
+}
+
+@media (max-width: 594px) {
+  footer {
+    font-size: 10px;
+  }
 }

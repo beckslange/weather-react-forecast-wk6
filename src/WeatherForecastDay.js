@@ -16,7 +16,7 @@ export default function WeatherForecastDay(props) {
         alt={props.data.condition.description}
         className="daily-icon"
       />
-      <div className="forecast-temp">
+      <div className="forecast-temp text-nowrap">
         <span className="temp-max me-1">
           {Math.round(props.data.temperature.maximum)}°F
         </span>{" "}
