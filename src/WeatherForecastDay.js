@@ -20,7 +20,6 @@ export default function WeatherForecastDay(props) {
         <span className="temp-max me-1">
           {Math.round(props.data.temperature.maximum)}°F
         </span>{" "}
-        <span className="divider">|</span>
         <span className="temp-min ms-1 opacity-75">
           {Math.round(props.data.temperature.minimum)}°F
         </span>{" "}
