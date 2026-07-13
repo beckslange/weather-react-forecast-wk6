@@ -30,6 +30,10 @@ h1 {
   width: 90px;
 }
 
+.forecast-temp {
+  font-size: 13px;
+}
+
 .current-temp {
   color: black;
 }

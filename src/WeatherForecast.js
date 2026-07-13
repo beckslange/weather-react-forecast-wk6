@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./WeatherForecast.css";
+import WeatherForecastDay from "./WeatherForecastDay";
 import "bootstrap/dist/css/bootstrap.min.css";
 import axios from "axios";
 
@@ -21,25 +22,12 @@ export default function WeatherForecast(props) {
   if (forecast === null) {
     return <div>Loading forecast...</div>;
   }
-
   return (
     <div className="WeatherForecast">
       <div className="row">
-        <div className="col">
-          <div className="forecast-day">Thu</div>
-          <img
-            src={forecast[0].condition.icon_url}
-            alt={forecast[0].condition.description}
-            className="daily-icon"
-          />
-          <div className="forecast-temp">
-            <span className="temp-max me-1">
-              {Math.round(forecast[0].temperature.maximum)}°F
-            </span>{" "}
-            <span className="divider">|</span>
-            <span className="temp-min ms-1 opacity-75">10°F</span>{" "}
-          </div>
-        </div>
+        {forecast.slice(0, 5).map(function (day) {
+          return <WeatherForecastDay data={day} key={day.time} />;
+        })}
       </div>
     </div>
   );
