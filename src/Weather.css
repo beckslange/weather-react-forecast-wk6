@@ -27,7 +27,7 @@ h1 {
 .Weather .weather-icon {
   display: inline-block;
   height: 110px;
-  width: 90px;
+  width: 110px;
 }
 
 .forecast-temp {
